@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+button {
+    outline: none;
+    padding: 10px 25px;
+    border: none;
+    background: #fff1b9;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+body > div {
+    padding-top: 50px;
+    font-size: 5vw;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+body > div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@keyframes danmu {
+    from {}
+    to {
+        left: -100%;
+    }
+}
